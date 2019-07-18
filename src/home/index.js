@@ -2,4 +2,8 @@ import React from "react";
 
 import { Hero } from "./hero";
 
-export const HomePage = () => <Hero />;
+export const HomePage = () => (
+  <>
+    <Hero />
+  </>
+);
